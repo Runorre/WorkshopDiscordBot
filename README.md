@@ -10,3 +10,13 @@ Faire cette commande des que vous avez cloner le repo
   npm i
 ```
 
+
+
+
+
+Pour lancer le bot
+
+```bash
+  npm run start
+```
+
