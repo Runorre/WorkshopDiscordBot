@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { token } = require('./config.json');
 
-//! MAUVAISE METHODE
+//! BAD METHOD
 const hello = require('./src/Slash/hello'); 
 const broadcast = require('./src/Slash/broadcast');
 const deletemsg = require('./src/ContextMenu/deleteMsg');

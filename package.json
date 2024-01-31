@@ -4,7 +4,9 @@
   "description": "Workshop to learn how to create a basic Discord Bot in Discord.JS V14",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "test": "nodemon index.js",
+    "deploy": "node deploy.js",
+    "start" : "node deploy.js && node index.js"
   },
   "author": "Angelo Anselmet",
   "license": "ISC",
