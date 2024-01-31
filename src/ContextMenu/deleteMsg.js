@@ -7,9 +7,9 @@ module.exports =  {
     async execute(interaction) {
         const msg = interaction.targetMessage;
         const channel = interaction.channel;
-
+        channel.send(`WARNING, Non-conforming message <@${msg.member.id}>`);
         msg.delete();
-        channel.send("WARNING, message not conform");
+        
         await interaction.reply({content : "Deleted", ephemeral : true})
     }
 };
